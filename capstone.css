@@ -23,8 +23,8 @@ margin: 0px;
 .topbar
 {
 display: flex;
-width: Fill (1,344px)px;
-height: (80px)px;
+width: 1344px;
+height: 80px;
 padding: 16px 0px 16px 0px;
 gap: 0px;
 border: 0px 0px 1px 0px;
@@ -35,8 +35,8 @@ opacity: 0px;
 }
 .artdeco
 {
-width: (167px)px;
-height: Fixed (48px)px;
+width: 167px;
+height: 48px;
 gap: 12px;
 opacity: 0px;
 font-family: IBM Plex Mono;
@@ -44,15 +44,15 @@ font-size: 42px;
 font-weight: 300;
 line-height: 42px;
 letter-spacing: -0.04em;
-text-align: left;
+text-align: center;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 color: white;
 }
 .navbar
 {
-width: (447px)px;
-height:  (32px)px;
+width: 447px;
+height:  32px;
 gap: 32px;
 opacity: 0px;
 display: flex;
@@ -69,6 +69,7 @@ text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 color: white;
+cursor: pointer;
 }
 .divider
 {
@@ -77,24 +78,27 @@ height: 0px;
 gap: 0px;
 border: 1px 0px 0px 0px;
 opacity: 0px;
-border: 1px solid #FFFFFF29;
+border-bottom: 1px solid #FFFFFF29;
+
 }
 .main
 {
-width: Fill (1344px)px;
+width:1344px;
 height: 3899px;
-padding: 48px 0px 48px 0px;
+padding: 0px 0px 48px 0px;
 gap: 0px;
 opacity: 0px;
+justify-content: center;
 }
 .first
 {
-    width: Fill (1344px)px;
+    width: 1344px;
     height: 1152px;
     padding: 96px 0px 96px 0px;
     gap: 48px;
     border: 0px 0px 1px 0px;
     opacity: 0px;
+    padding-bottom: 0;
     
 }
 .welcome
@@ -109,6 +113,166 @@ font-weight: 400;
 line-height: 120px;
 letter-spacing: -0.02em;
 text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+margin-bottom: 50px;
+}
+.photo
+{
+    width: 1344px;
+height: 672px;
+gap: 0px;
+border-radius: 56px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+}
+.one
+{
+margin: 0px;
+display: flex;
+justify-content: center;
+align-items: start;
+width: 1344px;
+height: 429px;
+padding: 0px 0px 48px 0px;
+gap: 48px;
+opacity: 0px;
+
+
+}
+.block img
+{
+    margin: 0px;
+ width:416px;
+height: 333px;
+gap: 8px;
+opacity: 0px;
+
+}
+.exhi
+{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100rem;
+
+}
+.title
+{
+    width: 416px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: IBM Plex Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+
+}
+.desc
+{
+    width: 416px;
+height: 24px;
+gap: 0px;
+opacity: 0px;
+font-family: IBM Plex Sans;
+font-size: 17px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF99;
+}
+.block
+{
+    display: block;
+}   
+.intro
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1344px;
+height: 400px;
+padding: 0px ;
+gap: 0px;
+border: 0px 0px 1px 0px;
+opacity: 0px;
+
+}
+.intro div
+{
+    width: 900px;
+height: 208px;
+max-width: 900px;
+gap: 0px;
+opacity: 0px;
+font-family: IBM Plex Sans;
+font-size: 48px;
+font-weight: 400;
+line-height: 52px;
+letter-spacing: -0.01em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+}
+.Contact
+{
+    width: 1344px;
+height: 360px;
+padding: 0px;
+gap: 96px;
+border: 0px 0px 1px 0px;
+opacity: 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.me{
+    width: 1344px;
+height: 168px;
+padding: 0px;
+gap: 96px;
+opacity: 0px;
+display: flex;
+
+}
+.cm{
+    width: 624px;
+height: 52px;
+gap: 0px;
+opacity: 0px;
+font-family: IBM Plex Sans;
+font-size: 48px;
+font-weight: 400;
+line-height: 52px;
+letter-spacing: -0.01em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+}
+.inq
+{
+    width: 624px;
+    height: 64px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: IBM Plex Sans;
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: -0.005em;
+text-align: left;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 color: white;
