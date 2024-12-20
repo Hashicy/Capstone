@@ -56,6 +56,7 @@ text-align: center;
 text-underline-position: from-font;
 text-decoration-skip-ink: none;
 color: white;
+cursor: pointer;
 }
 .navbar
 {
@@ -78,7 +79,17 @@ text-underline-position: from-font;
 text-decoration-skip-ink: none;
 color: white;
 cursor: pointer;
+transition: all 0.2s ease-in-out;
 }
+.icon:hover
+{
+    color:#20D816;
+    scale: 1.2;
+}
+
+
+
+
 .divider
 {
 width: 1504px;
@@ -113,6 +124,10 @@ margin:0px auto;
 
     
 }
+.photo:hover
+{
+    scale: 1.1
+}
 .welcome
 {
 width: 1344px;
@@ -138,6 +153,7 @@ gap: 0px;
 border-radius: 56px;
 border: 1px 0px 0px 0px;
 opacity: 0px;
+transition: all 0.3s ease;
 }
 .one
 {
@@ -161,6 +177,9 @@ flex-wrap: wrap;
 height: 333px;
 gap: 8px;
 opacity: 0px;
+transition: 0.3s ease;
+
+
 
 }
 .exhi
@@ -207,7 +226,18 @@ color: #FFFFFF99;
 .block
 {
     display: block;
+    transition: all 0.3s ease;
+    
 }   
+.block img:hover
+{
+    scale: 1.1
+}
+.block .title:hover, .block .desc:hover
+{
+    color:#20D816;
+    cursor: pointer;
+}
 .intro
 {
     display: flex;
@@ -427,5 +457,36 @@ text-align: center;
 
 .skip-link:hover {
     text-decoration: underline;
+
 }
 
+.dark-box
+{
+width: 1344px;
+height: 168px;
+padding: 0px;
+gap: 24px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+display: flex;
+align-items: flex-end;
+}
+.foot 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%
+
+}
+.aa{
+font-family: IBM Plex Sans;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+color: #FFFFFF;
+
+
+}
