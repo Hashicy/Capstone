@@ -445,6 +445,11 @@ text-align: center;
     margin-bottom: 10px;
     border-radius: 5px;
     width: 350px;
+    transition: all 0.3s ease;
+}
+.submit-button:hover
+{
+    scale: 1.25
 }
 
 .skip-link {
